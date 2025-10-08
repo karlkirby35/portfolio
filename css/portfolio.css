@@ -111,9 +111,9 @@
 }
 
 .shot img {
-  width: 100%;
+  width: 180%;
   height: auto;   
-  object-fit: contain; 
+  object-fit: cover; 
   border-radius: 8px;
   border: 3px solid #000;
 }
@@ -130,3 +130,78 @@
   color: #555;
   margin: 0 10px 10px;
 }
+
+.implementation {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  
+}
+
+.shotText {
+  text-align: right;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 20px 0px 20px;
+}
+
+.screenShotsFb {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.shotFb {
+  display: flex;
+  align-items: center;
+  gap: 30px; 
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.shotFb img {
+  width: 45%;
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #000;
+  object-fit: cover;
+}
+
+.shotText {
+  flex: 1;
+  text-align: left;
+}
+
+.shotText h3 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.shotText p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.back-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 18px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #333;
+}
+
+
+
